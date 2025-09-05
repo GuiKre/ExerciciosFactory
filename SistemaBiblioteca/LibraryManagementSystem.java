@@ -1,7 +1,7 @@
 public class LibraryManagementSystem {
     public static void main(String[] args) {
 
-        LibraryItemFactory bookFactory = new BookFactory("O Senhor dos Anéis", "Tolkien", 1954, "Fantasia");
+        LibraryItemFactory bookFactory = new BookFactory("Duna", "Frank Herbert", 1965, "Ficção científica");
         LibraryItemFactory magazineFactory = new MagazineFactory("Veja", "Grupo Abril", 2025, 255);
         LibraryItemFactory digitalMediaFactory = new DigitalMediaFactory("Curso de Factory", "Professor de Factory", 2025, "MP4");
 
